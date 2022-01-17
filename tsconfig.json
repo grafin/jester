@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "outDir": "dist/js",
+    "rootDir": "src",
+    "target": "ES6",
+    "lib": [
+        "ES6",
+        "dom"
+    ],
+    "typeRoots": [
+        "node_modules/@types",
+        "types"
+    ],
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "removeComments": true,
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true
+  },
+  "include": ["src"]
+}
